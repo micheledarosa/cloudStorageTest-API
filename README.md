@@ -27,3 +27,15 @@ O projeto consiste em uma aplicação ASP.NET Core Web API que permite o upload 
 ![Imgur](https://i.imgur.com/BAIuNUx.png)
 
 A imagem mostra um cenário onde ocorre a verificação do tipo de arquivo antes do upload para o Google Drive. No exemplo, o arquivo não é uma imagem válida, e como resultado, uma exceção é lançada. A exceção indica que o arquivo não atende aos critérios de verificação de tipo de arquivo esperado para o upload no sistema.
+
+# Domain-Driven Design (DDD) 🏰
+
+Este projeto adota os princípios de Domain-Driven Design (DDD) para organizar e estruturar o código de forma a refletir o domínio do problema que ele aborda. Alguns dos conceitos do DDD incorporados neste projeto incluem:
+
+- **Separação de Responsabilidades:** O código está organizado em diferentes camadas, como controladores, casos de uso, entidades e serviços, para separar as responsabilidades e manter o código modular e coeso.
+
+- **Modelagem do Domínio Implícita:** Embora não seja explicitamente documentado no código, há uma atenção especial para a modelagem do domínio através das entidades e serviços presentes no projeto.
+
+- **Injeção de Dependência:** A injeção de dependência é utilizada para fornecer instâncias de serviços aos componentes que deles necessitam, promovendo a flexibilidade, testabilidade e desacoplamento das diferentes partes do sistema.
+
+Esses princípios ajudam a construir um sistema mais flexível, coeso e fácil de manter, garantindo que o código permaneça alinhado com os requisitos do domínio e possa evoluir de forma sustentável ao longo do tempo.
